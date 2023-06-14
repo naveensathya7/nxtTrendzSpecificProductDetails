@@ -1,0 +1,137 @@
+/* Write your CSS here */
+.product-item-details {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  font-family: 'Roboto';
+}
+.product-image {
+  height: 100%;
+  width: 40%;
+  border-radius: 10px;
+}
+.rating-section {
+  background-color: #3b82f6;
+  border-radius: 5px;
+  display: flex;
+  width: 90px;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #ffffff;
+  margin-right: 20px;
+  height: 45px;
+}
+.upper-section {
+  display: flex;
+  height: 60vh;
+}
+.lower-section {
+  margin-top: 120px;
+}
+.details-section {
+  margin-left: 30px;
+}
+.ratings-reviews {
+  display: flex;
+}
+.product-description {
+  color: #616e7c;
+  font-size: 25px;
+}
+.available-brand {
+  font-weight: 600;
+  color: #475569;
+  font-size: 20px;
+}
+.available-brand-span {
+  font-weight: normal;
+  color: #616e7c;
+}
+.quantity-selection {
+  display: flex;
+  align-items: center;
+}
+.icons {
+  height: 40px;
+  width: 40px;
+  outline: none;
+  border-width: 1px;
+  margin-right: 10px;
+}
+.loader {
+  text-align: center;
+  margin-top: 30%;
+}
+.quantity {
+  font-weight: 600;
+  font-size: 25px;
+  color: #475569;
+  margin-right: 10px;
+}
+.add-to-cart-btn {
+  background-color: #3b82f6;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  width: 100px;
+  margin-left: 10px;
+}
+.heading-lower {
+  color: #1e293b;
+}
+.list-item {
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.similar-products-list {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.similar-product-image {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+}
+.rating-and-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.similar-product-title {
+  color: #171f46;
+  font-weight: 600;
+}
+.similar-product-brand {
+  color: #475569;
+  font-size: 20px;
+}
+.similar-product-price {
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 22px;
+}
+.continue-btn {
+  background-color: #3b82f6;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  width: 150px;
+  margin-left: 10px;
+}
+.failure-container {
+  text-align: center;
+}
+.error-image {
+  width: 80%;
+}
+.star-image {
+  width: 20px;
+  height: 20px;
+}
